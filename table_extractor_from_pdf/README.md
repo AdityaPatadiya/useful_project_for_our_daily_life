@@ -23,7 +23,8 @@ Whenever the table in the pdf has contain more number of lines for one row, then
 1. Clone the repository:
     ```bash
     git clone https://github.com/AdityaPatadiya/useful_project_for_our_daily_life.git
-    cd pdf-table-extractor
+    cd useful_project_for_our_daily_life
+    cd table_extractor_from_pdf
     ```
 
 2. Install the required packages:
@@ -35,7 +36,7 @@ Whenever the table in the pdf has contain more number of lines for one row, then
 
 1. Place the PDF file you want to extract data from in the project directory.
 
-2. Update the `pdf_path` variable in the script to the name of your PDF file:
+2. Update the `pdf_path` variable in the [script](https://github.com/AdityaPatadiya/useful_project_for_our_daily_life/blob/main/table_extractor_from_pdf/extract_tables.py) to the name of your PDF file:
     ```python
     pdf_path = 'your_pdf_file.pdf'
     ```
