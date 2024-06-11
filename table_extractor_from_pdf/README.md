@@ -22,7 +22,7 @@ Whenever the table in the pdf has contain more number of lines for one row, then
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/AdityaPatadiya/pdf-table-extractor.git
+    git clone https://github.com/AdityaPatadiya/useful_project_for_our_daily_life.git
     cd pdf-table-extractor
     ```
 
