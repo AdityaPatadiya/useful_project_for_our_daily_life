@@ -48,7 +48,7 @@ Whenever the table in the pdf has contain more number of lines for one row, then
 4. The extracted data will be saved in an Excel file named `combined_output.xlsx` in the project directory.
 
 > [!NOTE]
-> **PDFs must contains the header line for each table.**
+> **PDFs must contains the header line for each table in every page.**
 
 ## Example
 
