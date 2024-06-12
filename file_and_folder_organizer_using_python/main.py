@@ -1,7 +1,5 @@
 import os
 import shutil
-import mimetypes
-from pprint import pprint
 
 audio = (".3ga", ".aac", ".ac3", ".aif", ".aiff",
          ".alac", ".amr", ".ape", ".au", ".dss",
@@ -21,36 +19,6 @@ files = (".pdf", ".doc", ".docx", ".xls", ".xlsx", ".ppt",
          ".odg", ".odf", ".odc", ".odb", ".odm", ".ott",
          ".otp", ".otg", ".otf", ".oti", ".otc",
          ".otm", ".ots", ".csv", ".json", ".pem")
-
-# items_per_line = 6
-# print("Audio files:")
-# for i, file_type in enumerate(audio, start=1):
-#     print(file_type, end=' ')
-#     if i % items_per_line == 0:
-#         print()
-#
-# print("\n\nVideo files:")
-# for i, file_type in enumerate(video, start=1):
-#     print(file_type, end=' ')
-#     if i % items_per_line == 0:
-#         print()
-#
-# print("\n\nImage files:")
-# for i, file_type in enumerate(img, start=1):
-#     print(file_type, end=' ')
-#     if i % items_per_line == 0:
-#         print()
-#
-# print("\n\nDocument files:")
-# for i, file_type in enumerate(files, start=1):
-#     print(file_type, end=' ')
-#     if i % items_per_line == 0:
-#         print()
-
-# print(mimetypes.guess_type('test.jpg'))  # ('image/jpeg', None)
-# print(mimetypes.guess_type('test.pdf'))  # ('image/jpeg', None)
-# print(mimetypes.guess_type('test.py'))  # ('image/jpeg', None)
-# print(mimetypes.guess_type('test.doc'))  # ('image/jpeg', None)
 
 source_dir = (input("\n\nEnter the complete path of the folder you want to organize by select that folder and press "
                     "'shift+ctrl+c': ").replace('"', ''))
